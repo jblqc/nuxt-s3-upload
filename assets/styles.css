@@ -54,13 +54,36 @@ body {
 	background: rgba(255, 255, 255, 0.04);
 	border: 1px solid rgba(255, 255, 255, 0.06);
 }
+/* Header row */
+.intro-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	margin-bottom: 12px;
+	white-space: nowrap;
+}
 
+/* Title */
 .intro-title {
 	font-size: 22px;
 	font-weight: 700;
-	margin: 0 0 12px;
+	margin: 0;
+	text-overflow: ellipsis;
 }
 
+.intro-logo {
+	width: 72px;
+	height: auto;
+	filter: drop-shadow(0 6px 16px rgba(99, 102, 241, 0.35));
+	background: radial-gradient(
+		circle at center,
+		rgba(99, 102, 241, 0.25),
+		transparent 70%
+	);
+	border-radius: 12px;
+	padding: 6px;
+}
 .intro-description {
 	font-size: 14px;
 	line-height: 1.6;
@@ -434,4 +457,11 @@ body {
 .footer-actions {
 	display: flex;
 	justify-content: center;
+}
+
+@media (max-width: 480px) {
+	.intro-logo {
+		width: 55px;
+		margin-top: 6px;
+	}
 }

@@ -1,7 +1,13 @@
 <template>
 	<section class="upload-intro">
-		<h1 class="intro-title">Image Upload Demo</h1>
+		<div class="intro-header">
+			<h1 class="intro-title">Image Upload Demo</h1>
 
+			<img
+				src="/favicon.svg"
+				alt="Jenny logo"
+				class="intro-logo" />
+		</div>
 		<p class="intro-description">
 			This app is a simple image upload built to demonstrate AWS signed urls.
 			Images are uploaded using pre-signed URLs to a private Amazon S3 bucket,
