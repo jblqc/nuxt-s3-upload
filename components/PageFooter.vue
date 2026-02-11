@@ -5,9 +5,10 @@
 			<h3 class="footer-title">About this project</h3>
 
 			<p class="footer-text">
-				This demo was built to explore secure, production-style file uploads
-				using modern frontend patterns and AWS best practices.
-			</p>
+				This demo was created as a hands-on practice exercise to implement
+				secure image uploads using pre-signed URLs, private S3 buckets, and
+				CloudFront.</p
+			>
 
 			<a
 				href="https://jny-nu.vercel.app/"
